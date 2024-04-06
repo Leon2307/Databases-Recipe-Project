@@ -19,10 +19,10 @@ WHERE
     rec_id = 1
     AND cat_id = 1;
 
--- Delete all images of a Recipe (e.g. fish tacos)
+-- Delete all images of a Recipe (e.g. apple pie)
 DELETE FROM Images
 WHERE
-    recipe_id = 2;
+    recipe_id = 1;
 
 -- Delete an ingredient of a Recipe (e.g pie crust from apple pie)
 DELETE FROM Recipes_Ingredients
